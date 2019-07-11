@@ -70,7 +70,8 @@ const invalid = [
                 scales: {
                     xAxes: [{
                         ticks: {
-                            min: ' March '
+                            min: ' March ',
+                            max: ' June '
                         }
                     }]
                 }
@@ -84,7 +85,8 @@ const invalid = [
                 scales: {
                     xAxes: [{
                         ticks: {
-                            min: 'March'
+                            min: 'March',
+                            max: 'June'
                         }
                     }]
                 }
@@ -92,6 +94,8 @@ const invalid = [
         });`,
         errors: [{
             message: `min value are not in labels`,
+        }, {
+            message: `max value are not in labels`,
         }]
     },
 ]
