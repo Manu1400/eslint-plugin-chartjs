@@ -91,7 +91,7 @@ const invalid = [
             }
         });`,
         errors: [{
-            message: `msg`,
+            message: `min value are not in labels`,
         }]
     },
 ]
