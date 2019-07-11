@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-chartjs",
+  "version": "0.1.0",
+  "description": "Eslint plugin for the librairy Chart.js",
+  "repository": "github:Manu1400/eslint-plugin-chartjs",
+  "homepage": "https://github.com/Manu1400/eslint-plugin-chartjs",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "chartjs",
+    "chart"
+  ],
+  "author": "Emmanuel Haguet <emmanuel.haguet@laposte.net>",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    ".eslintrc.json",
+    "lib"
+  ],
+  "scripts": {
+    "test": "mocha tests/lib --recursive"
+  },
+  "dependencies": {
+    "import-modules": "^1.1.0",
+    "path": "^0.12.7",
+    "validate-color": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  },
+  "peerDependencies": {},
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "license": "MIT"
+}
